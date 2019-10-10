@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCenterMark", "AutoCenterMark\AutoCenterMark.csproj", "{02FCCAD1-76E9-4308-BA46-6B6C8EE66B6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02FCCAD1-76E9-4308-BA46-6B6C8EE66B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FCCAD1-76E9-4308-BA46-6B6C8EE66B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FCCAD1-76E9-4308-BA46-6B6C8EE66B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FCCAD1-76E9-4308-BA46-6B6C8EE66B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {795D7D34-FE2B-40D7-91B2-C8C40BECFA15}
+	EndGlobalSection
+EndGlobal
