@@ -1,9 +1,4 @@
 ﻿using SldWorks;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AutoCenterMark
 {
@@ -13,9 +8,9 @@ namespace AutoCenterMark
         {
             var swInstance = new SldWorks.SldWorks();
 
-            var part = (ModelDoc2)swInstance.ActiveDoc;
-            var drawing = (DrawingDoc)part;
-            var docExtension = (ModelDocExtension)part.Extension;
+            var model = (ModelDoc2)swInstance.ActiveDoc;
+            var drawing = (DrawingDoc)model;
+            var docExtension = (ModelDocExtension)model.Extension;
 
             drawing.ActivateView("Drawing View1");
             var activeView = (View)drawing.ActiveDrawingView;
